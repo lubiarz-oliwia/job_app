@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.forTable {
+  margin-top: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0DACC4;
+  color: white;
+}
+
+tr:hover {
+  background-color: #FFE66D;
+}
+/* form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 50px;
+}
+
+label {
+  margin: 20px;
+  color: #0dacc4;
+}
+
+.save_btn {
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color:#48cae4;
+  outline: none;
+  border: none;
+}
+
+.save_btn:hover {
+  background-color: #0dacc4;
+}
+
+.error {
+  color: #ff6c51;
+
+}
+
+.red {
+  background-color: red;
+}
